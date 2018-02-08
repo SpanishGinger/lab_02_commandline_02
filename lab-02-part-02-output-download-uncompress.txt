@@ -152,9 +152,13 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
-curl -o http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
-curl: no URL specified!
-curl: try 'curl --help' or 'curl --manual' for more information
+curl -o mtec1002-lab-02.zip http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0   2798      0 --:--:-- --:--:-- --:--:--  2825
+Macbooks-MacBook-Pro:~ macbookpro$ 
+
+
 
 
 ==========
@@ -162,7 +166,7 @@ curl: try 'curl --help' or 'curl --manual' for more information
 
 Write down the command that you used to uncompress the file.
 ----------
-
+unzip mtec1002-lab-02.zip
 
 
 ==========
@@ -170,7 +174,7 @@ Write down the command that you used to uncompress the file.
 
 Copy and paste the output below.
 ----------
-
+books   logs    web
 
 
 ==========
